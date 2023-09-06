@@ -181,7 +181,7 @@ void buscarElemento()
 	NO* aux = primeiro;
 	while (aux != NULL) {
 		if (aux->valor == elemento) {
-			cout << aux->valor << endl;
+			cout << aux->valor << " encontrado \n";
 			break;
 		}
 		aux = aux->prox;
